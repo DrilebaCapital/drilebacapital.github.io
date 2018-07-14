@@ -27,6 +27,7 @@
 
                 .logo {
                     width: 300px;
+                   
                 }
 
                 .box{
@@ -38,34 +39,55 @@
 
 
             }
-
-            img{
-                width: 40%;
-            }
+            
 
             .box{
-                padding: 10%;  
+                position: relative;
+                padding: 5%; 
+                max-height: 100%;
+                background-color: rgba(255, 255, 255, 0.383); 
+               
             }
-
 
             .button{
                 padding: 5px;
-                background-color: black;
+                background-color:#1E282C;
                 text-decoration: none;
                 color: white;
 
             }
 
-
-            .email{
+            .contact{
                 text-decoration: none;
-                font-family: Tahoma, Verdana, Segoe, sans-serif;
-                color: white;
+                color: #1E282C;
+            }
+
+            .footer{
+                position: fixed;
+                bottom: 0px;
             }
             
             .blog{
-                color: black;
+                color: #1E282C;
                 text-decoration: none;
+            }
+
+            .value1{
+                background-color: rgba(187, 48, 48, 0.5);
+                padding: 4px;
+                line-height: 1.6;
+            }
+
+            .value2{
+                background-color: rgba(53, 187, 48, 0.5);
+                padding: 4px;
+                line-height: 1.6;
+            }
+
+            .value3{
+                background-color: rgba(48, 148, 187, 0.5);
+                padding: 4px;
+                line-height: 1.6;
             }
 
 
@@ -128,27 +150,49 @@
         <div class="box">
                <p>
                     <img class="logo" src="lg_small.png"/>
-                    <h1>Resilient | Trustless | Autonomous.</h1>
+                   
                 </p> 
+
+                <br/>
         
-                <p class="buttons">
-                    <a href="#" class="button" >⛓ Smart Contracts</a> 
-                    <a href="#" class="button">♖ Machine Intelligence</a>
+                <p class="statement">
+                    Building the next generation of 
+                    <span class="value1">Resilient</span>, 
+                    <span class="value2">Trustless</span> & 
+                    <span class="value3">Data Driven</span>
+                    financial instruments.
                 </p>
 
                 <p class="statement">                   
                     <p>
-                     Building the next generation of resilient, trustless & data driven financial instruments.
+                        <p>
+                            <a href="#" class="button" >⛓ Decentralized Applications</a> 
+                        </p>
+                        <!--
+                        <a><img src="gh.png"></a>
+                        <a><img src="gh.png"></a>   
+                        -->
+                  
+                    
+                        <p>
+                            <a href="#" class="button">♖ Machine Intelligence</a>
+                        </p>
+                        <!--
+                        <a><img src="gh.png"></a>
+                        <a><img src="gh.png"></a>
+                        -->
+
+                       
+                     
+                     
                     </p>
                 </p>
         
-                <p>
-                <em><a class="email" href="mailto:info@drileba.capital">info@drileba.capital</a></em>
+                <p class="footer">
+                <a class="contact" href="mailto:info@drileba.capital">	☏ — Say Hi.</a> |
+                <a class="contact" href="https://asindu.drileba.capital"> ⛩ — Asindu's blog.</a>
                 </p>
 
-                <p>
-                    <a class="blog" href="https://asindu.drileba.capital"> ⛩ — Asindu's blog.</a>
-                </p> 
         </div>
         
     </body>
