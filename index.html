@@ -7,15 +7,7 @@
 
         <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="shortcut icon" href="fav.png">
-        
-        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        <script>
-          (adsbygoogle = window.adsbygoogle || []).push({
-            google_ad_client: "ca-pub-4738055588633839",
-            enable_page_level_ads: true
-          });
-        </script>
+        <link rel="shortcut icon" href="fav.png">       
 
         <style>
             
@@ -23,26 +15,31 @@
             html {
                 font-size: 22px;
                 }
+
+            section {
+                width: 50%;  
+                margin: auto;              
+            }
                 
             } 
+
 
             @media only screen and (max-width: 800px) {
                 .button {
                     display:block;
+                    padding-left: 10px;;
                     margin-bottom: 2%;
     
                 }
 
                 .logo {
                     width: 300px;
-                   
                 }
 
                 .box{
                     position: absolute;
                     top: 0px;
                     height: 100px;
-                    
                 }
 
 
@@ -53,8 +50,7 @@
                 position: relative;
                 padding: 5%; 
                 max-height: 100%;
-                background-color: rgba(255, 255, 255, 0.383); 
-               
+                background-color: rgba(255, 255, 255, 0); 
             }
 
             .button{
@@ -83,24 +79,24 @@
             .value1{
                 background-color: rgba(187, 48, 48, 0.5);
                 padding: 4px;
-                line-height: 1.6;
+                line-height: 1.8;
             }
 
             .value2{
                 background-color: rgba(53, 187, 48, 0.5);
                 padding: 4px;
-                line-height: 1.6;
+                line-height: 1.8;
             }
 
             .value3{
                 background-color: rgba(48, 148, 187, 0.5);
                 padding: 4px;
-                line-height: 1.6;
+                line-height: 1.8;
             }
 
 
 
-            body {
+            section {
                 font-family: 'Share Tech Mono', monospace;
                 width: 100wh;
                 height: 90vh;
@@ -112,6 +108,7 @@
                 animation: Gradient 15s ease infinite;
             }
             
+            /* Gradient FX */
             @-webkit-keyframes Gradient {
                 0% {
                     background-position: 0% 50%
@@ -154,57 +151,43 @@
 
 
     <body>
-
-        <div class="box">
-               <p>
-                    <img class="logo" src="lg_small.png"/>
-                   
-                </p> 
-
-                <br/>
-        
-                <p class="statement">
-                    Building the next generation of 
-                    <span class="value1">Resilient</span>, 
-                    <span class="value2">Trustless</span> & 
-                    <span class="value3">Data Driven</span>
-                    financial instruments.
-                </p>
-
-                <p class="statement">                   
-                    <p>
+        <section>
+                <div class="box">
                         <p>
-                            <a href="#" class="button" >⛓ Decentralized Applications</a> 
-                        </p>
-                        <!--
-                        <a><img src="gh.png"></a>
-                        <a><img src="gh.png"></a>   
-                        -->
-                  
-                    
-                        <p>
-                            <a href="#" class="button">♖ Machine Intelligence</a>
-                        </p>
-                        <!--
-                        <a><img src="gh.png"></a>
-                        <a><img src="gh.png"></a>
-                        -->
-
-                       
-                     
-                     
-                    </p>
-                </p>
-        
-                <p class="footer">
-                <a class="contact" href="mailto:info@drileba.capital">	☏ Say Hi.</a> |
-                <a class="contact" href="https://github.com/DrilebaCapital"> ✐ GitHub.</a> |
-                <a class="contact" href="https://asindu.drileba.capital"> ⛩ Blog.</a>
-                </p>
-
-        </div>
-
-        
+                             <img class="logo" src="lg_small.png"/>
+                         </p> 
+         
+                         <br/>
+                 
+                         <p class="statement">
+                             Building the next generation of 
+                             <span class="value1">Resilient</span>, 
+                             <span class="value2">Trustless</span> & 
+                             <span class="value3">Data </span>
+                             financial instruments.
+                         </p>
+         
+                         <p class="statement">  
+                                <a href="#" class="button" >OVERVIEW.</a>                  
+                             <p>
+                                    ⛓️  Run your finacial operations on <span class="value1"> censorship resistant infrastructure.</span>
+                              
+                                    👪 Securely interact with any stranger in the world, with <span class="value2"> Zero counter party risk.</span>
+                                
+                                    💾 Use innovative incentive mechanisims to <span class="value3"> efficiently & accurately aggregate information.</span>
+                                 
+                             </p>
+                             
+                         </p>
+                 
+                         <p class="footer">
+                         <a class="contact" href="mailto:contact@drileba.capital">	☏ contact.</a> |
+                         <a class="contact" href="https://github.com/DrilebaCapital"> ✐ github.</a> |
+                         <a class="contact" href="https://asindu.drileba.capital"> ⛩ blog.</a>
+                         </p>
+         
+                 </div>
+        </section>
     </body>
 
 </html>
