@@ -1,3 +1,3 @@
 # Drileba Capital
 
-Research & Development On Autonomous Agents
+R&D house focused on markets & finance.
