@@ -1,3 +1,3 @@
 # Drileba Capital
 
-R&D house focused on markets & finance.
+A fintech studio at the pearl of Africa 
